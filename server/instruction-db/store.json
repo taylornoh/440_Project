@@ -1,0 +1,5 @@
+{
+    "MEM [$s + i]:1 = LB ($t)": "sb $t, i($s)",
+    "MEM [$s + i]:2 = LH ($t)": "sh $t, i($s)",
+    "MEM [$s + i]:4 = $t": "sw $t, i($s)"
+}
