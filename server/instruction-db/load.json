@@ -1,7 +1,7 @@
 {
-    "$t = SE (MEM [$s + i]:1)": "lb $t, i($s)",
-    "$t = ZE (MEM [$s + i]:1)": "lbu $t, i($s)",
-    "$t = SE (MEM [$s + i]:2)": "lh $t, i($s)",
+    "$t = SE (MEM [$s + i]:1)":"lb $t, i($s)",
+    "$t = ZE (MEM [$s + i]:1)":"lbu $t, i($s)",
+    "$t = SE (MEM [$s + i]:2)":"lh $t, i($s)",
     "$t = ZE (MEM [$s + i]:2)":"lhu $t, i($s)",
     "$t = MEM [$s + i]:4":"lw $t, i($s)"
 }
