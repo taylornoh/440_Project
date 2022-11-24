@@ -1,0 +1,7 @@
+{
+  "Print integer value in $4": "trap 1",
+  "Read integer value into $2": "trap 5",
+  "Terminate program execution": "trap 10",
+  "Print ASCII character in $4": "trap 101",
+  "Read ASCII character into $2": "trap 102"
+}

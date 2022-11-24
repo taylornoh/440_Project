@@ -1,0 +1,6 @@
+{
+  "pc += i << 2": "j label",
+  "$31 = pc; pc += i << 2": "jal label",
+  "$31 = pc' pc = $s": "jalr $s",
+  "pc = $s": "jr $s"
+}
