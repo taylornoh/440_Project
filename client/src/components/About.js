@@ -3,50 +3,21 @@ function About() {
     <div>
       <div>
         <br />
-        <h2>about us</h2>
+        <h2>About Us</h2>
         <div className="about-body card-shadow">
           <div className="card-body">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Tristique senectus et netus et malesuada fames ac turpis. Aliquet
-              porttitor lacus luctus accumsan tortor. Pellentesque diam volutpat
-              commodo sed egestas egestas fringilla. Est placerat in egestas
-              erat imperdiet sed euismod nisi porta. Phasellus vestibulum lorem
-              sed risus ultricies tristique nulla. Ornare aenean euismod
-              elementum nisi quis eleifend. Arcu dui vivamus arcu felis bibendum
-              ut. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor.
-              Nulla malesuada pellentesque elit eget gravida. Ultrices eros in
-              cursus turpis massa. Lobortis mattis aliquam faucibus purus.
+            <br />
+            <p> 
+              The <b>MIP Translator</b> website is a tool designed for students who are learning how to code in the <b>MIPS assembly language</b>. 
+              It is a quick way to understand how <b>MIPS operations</b> are translated into <b>program instructions</b>.
+              MIPS assembly language simply refers to the assembly language of the <b>MIPS processor</b>. 
+              The term MIPS is an acronym for <b>Microprocessor without Interlocked Pipeline Stages</b>. 
+              It is a reduced-instruction set architecture developed by an organization called <b>MIPS Technologies</b>.
+              The MIPS assembly language is a very useful language to learn because many <b>embedded systems</b> run on the MIPS processor. 
+              Knowing how to code in this language brings a <b>deeper understanding</b> of how these systems operate on a <b>lower level</b>.
+              <br /><br /><b>Developed by<br />Taylor Noh, Nicholas Caro, Rodolfo Hernandez</b>
             </p>
             <br />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Tristique senectus et netus et malesuada fames ac turpis. Aliquet
-              porttitor lacus luctus accumsan tortor. Pellentesque diam volutpat
-              commodo sed egestas egestas fringilla. Est placerat in egestas
-              erat imperdiet sed euismod nisi porta. Phasellus vestibulum lorem
-              sed risus ultricies tristique nulla. Ornare aenean euismod
-              elementum nisi quis eleifend. Arcu dui vivamus arcu felis bibendum
-              ut. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor.
-              Nulla malesuada pellentesque elit eget gravida. Ultrices eros in
-              cursus turpis massa. Lobortis mattis aliquam faucibus purus.
-            </p>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Tristique senectus et netus et malesuada fames ac turpis. Aliquet
-              porttitor lacus luctus accumsan tortor. Pellentesque diam volutpat
-              commodo sed egestas egestas fringilla. Est placerat in egestas
-              erat imperdiet sed euismod nisi porta. Phasellus vestibulum lorem
-              sed risus ultricies tristique nulla. Ornare aenean euismod
-              elementum nisi quis eleifend. Arcu dui vivamus arcu felis bibendum
-              ut. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor.
-              Nulla malesuada pellentesque elit eget gravida. Ultrices eros in
-              cursus turpis massa. Lobortis mattis aliquam faucibus purus.
-            </p>
           </div>
 
           <br />
