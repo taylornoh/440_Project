@@ -29,7 +29,7 @@ function StoreCard() {
       <div>
         <br />
         <br />
-        <h3>store</h3>
+        <h3>Store</h3>
       </div>
       <div className="card-body card-shadow">
         <TextField

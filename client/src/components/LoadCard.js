@@ -43,7 +43,7 @@ function LoadCard() {
       <div>
         <br />
         <br />
-        <h3>load</h3>
+        <h3>Load</h3>
       </div>
       <div className="card-body card-shadow">
         <TextField
