@@ -6,7 +6,7 @@ import Axios from "axios";
 import Box from "@mui/material/Box";
 
 //AKA STORE
-function FindCard() {
+function StoreCard() {
   const [id, setId] = useState("");
   const [modalDescription, setModalDescription] = useState("");
   const [open, setOpen] = useState(false);
@@ -60,4 +60,4 @@ function FindCard() {
   );
 }
 
-export default FindCard;
+export default StoreCard;

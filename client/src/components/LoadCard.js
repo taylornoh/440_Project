@@ -20,7 +20,7 @@ const style = {
   p: 4,
 };
 
-function DeleteCard() {
+function LoadCard() {
   const [id, setId] = useState("");
   const [modalDescription, setModalDescription] = useState("");
   const [open, setOpen] = useState(false);
@@ -74,4 +74,4 @@ function DeleteCard() {
   );
 }
 
-export default DeleteCard;
+export default LoadCard;

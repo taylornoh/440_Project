@@ -5,7 +5,7 @@ import Axios from "axios";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
-function CreateCard() {
+function AlCard() {
   const [id, setId] = useState("");
   const [modalDescription, setModalDescription] = useState("");
   const [open, setOpen] = useState(false);
@@ -59,4 +59,4 @@ function CreateCard() {
   );
 }
 
-export default CreateCard;
+export default AlCard;
