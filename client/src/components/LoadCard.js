@@ -1,12 +1,26 @@
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import { useState } from "react";
-import Modal from "@mui/material/Modal";
 import Axios from "axios";
+import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
-//AKA STORE
-function FindCard() {
+//TODO: add data validation to text field
+
+const style = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 400,
+  backgroundColor: "#ffffff",
+  boxShadow: 24,
+  borderRadius: "20px",
+  p: 4,
+};
+
+function LoadCard() {
   const [id, setId] = useState("");
   const [modalDescription, setModalDescription] = useState("");
   const [open, setOpen] = useState(false);
@@ -17,7 +31,7 @@ function FindCard() {
   //TODO: resolve ERROR: endpoint expecting a map not a string. either change api or change input into a map
   const deleteMoneyPot = async () => {
     console.log(id);
-    const res = await Axios.get(`http://localhost:5009/store/${id}`);
+    const res = await Axios.get(`http://localhost:5009/load/${id}`);
 
     console.log(res.data);
     setModalDescription(res.data);
@@ -29,7 +43,7 @@ function FindCard() {
       <div>
         <br />
         <br />
-        <h3>store</h3>
+        <h3>load</h3>
       </div>
       <div className="card-body card-shadow">
         <TextField
@@ -60,4 +74,4 @@ function FindCard() {
   );
 }
 
-export default FindCard;
+export default LoadCard;

@@ -4,23 +4,8 @@ import { useState } from "react";
 import Axios from "axios";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 
-//TODO: add data validation to text field
-
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 400,
-  backgroundColor: "#ffffff",
-  boxShadow: 24,
-  borderRadius: "20px",
-  p: 4,
-};
-
-function DeleteCard() {
+function AlCard() {
   const [id, setId] = useState("");
   const [modalDescription, setModalDescription] = useState("");
   const [open, setOpen] = useState(false);
@@ -31,7 +16,7 @@ function DeleteCard() {
   //TODO: resolve ERROR: endpoint expecting a map not a string. either change api or change input into a map
   const deleteMoneyPot = async () => {
     console.log(id);
-    const res = await Axios.get(`http://localhost:5009/load/${id}`);
+    const res = await Axios.get(`http://localhost:5009/al/${id}`);
 
     console.log(res.data);
     setModalDescription(res.data);
@@ -43,7 +28,7 @@ function DeleteCard() {
       <div>
         <br />
         <br />
-        <h3>load</h3>
+        <h3>arithmetic and logic</h3>
       </div>
       <div className="card-body card-shadow">
         <TextField
@@ -74,4 +59,4 @@ function DeleteCard() {
   );
 }
 
-export default DeleteCard;
+export default AlCard;

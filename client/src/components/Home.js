@@ -1,14 +1,14 @@
-import CreateCard from "./CreateCard";
-import DeleteCard from "./DeleteCard";
-import FindCard from "./FindCard";
+import AlCard from "./AlCard";
+import LoadCard from "./LoadCard";
+import StoreCard from "./StoreCard";
 
 function Home() {
   return (
     <div>
       <div className="container">
-        <DeleteCard />
-        <FindCard />
-        <CreateCard />
+        <LoadCard />
+        <StoreCard />
+        <AlCard />
       </div>
     </div>
   );
