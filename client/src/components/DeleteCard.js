@@ -64,7 +64,7 @@ function DeleteCard() {
         <Modal open={open} onClose={handleClose}>
           <Box>
             <div className="modal-gradient">
-              <h4>Status</h4>
+              <h4>Instruction</h4>
               <h5>{modalDescription}</h5>
             </div>
           </Box>

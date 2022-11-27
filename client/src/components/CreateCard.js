@@ -16,7 +16,7 @@ function CreateCard() {
   //TODO: resolve ERROR: endpoint expecting a map not a string. either change api or change input into a map
   const deleteMoneyPot = async () => {
     console.log(id);
-    const res = await Axios.get(`http://localhost:5009/store/${id}`);
+    const res = await Axios.get(`http://localhost:5009/al/${id}`);
 
     console.log(res.data);
     setModalDescription(res.data);
@@ -49,7 +49,7 @@ function CreateCard() {
         <Modal open={open} onClose={handleClose}>
           <Box>
             <div className="modal-gradient">
-              <h4>Status</h4>
+              <h4>Instruction</h4>
               <h5>{modalDescription}</h5>
             </div>
           </Box>
