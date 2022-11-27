@@ -28,7 +28,7 @@ function CreateCard() {
       <div>
         <br />
         <br />
-        <h3>arithmetic and logic</h3>
+        <h3>Arithmetic & Logic</h3>
       </div>
       <div className="card-body card-shadow">
         <TextField
