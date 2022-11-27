@@ -5,7 +5,7 @@ import Modal from "@mui/material/Modal";
 import Axios from "axios";
 import Box from "@mui/material/Box";
 
-//TODO: add data validation to text field
+//AKA STORE
 function FindCard() {
   const [id, setId] = useState("");
   const [modalDescription, setModalDescription] = useState("");
@@ -50,7 +50,7 @@ function FindCard() {
         <Modal open={open} onClose={handleClose}>
           <Box>
             <div className="modal-gradient">
-              <h4>Status</h4>
+              <h4>Instruction</h4>
               <h5>{modalDescription}</h5>
             </div>
           </Box>

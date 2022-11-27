@@ -8,7 +8,7 @@ function Home() {
       <div className="container">
         <DeleteCard />
         <FindCard />
-        {/* <CreateCard /> */}
+        <CreateCard />
       </div>
     </div>
   );

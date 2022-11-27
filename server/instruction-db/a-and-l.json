@@ -1,11 +1,11 @@
 {
-  "$d = $s + $t": ["add $d, $s, $t", "addu $d, $s, $t"],
-  "$t = $s + SE(i)": ["addi $t, $s, i", "addiu $t, $s, i"],
+  "$d = $s + $t": ["add $d, $s, $t", " OR addu $d, $s, $t"],
+  "$t = $s + SE(i)": ["addi $t, $s, i", " OR addiu $t, $s, i"],
   "$d = $s & $t": "and $d, $s, $t",
   "$t = $s & ZE(i)": "andi $t, $s, i",
-  "lo = $s / $t": ["div $s, $t", "divu $s, $t"],
-  "hi = $s % %t": ["div $s, $t", "divu $s, $t"],
-  "hi:lo = $s * $t": ["mult $s, $t", "multu $s, $t"],
+  "lo = $s / $t": ["div $s, $t", " OR divu $s, $t"],
+  "hi = $s % %t": ["div $s, $t", " OR divu $s, $t"],
+  "hi:lo = $s * $t": ["mult $s, $t", " OR multu $s, $t"],
   "$d = ~($s | $t)": "nor $d, $s, $t",
   "$d = $s | $t": "or $d, $s, $t",
   "$t = $s | ZE(i)": "ori $t, $s, i",
@@ -15,7 +15,7 @@
   "$d = $t >> $s": "srav $d, $t, $s",
   "$d = $t >>> a": "srl $d, $t, a",
   "$d = $t >>> $s": "srlv $d, $t, $s",
-  "$d = $s - $t": ["sub $d, $s, $t", "subu $d, $s, $t"],
+  "$d = $s - $t": ["sub $d, $s, $t", " OR subu $d, $s, $t"],
   "$d = $s ^ $t": "xor $d, $s, $t",
   "$d = $s ^ ZE(i)": "xori $d, $s, i"
 }
