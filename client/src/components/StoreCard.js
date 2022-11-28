@@ -34,7 +34,7 @@ function StoreCard() {
       <div className="card-body card-shadow">
         <TextField
           id="standard-basic"
-          label="operation"
+          label="Enter Operation"
           variant="standard"
           required
           size="small"
