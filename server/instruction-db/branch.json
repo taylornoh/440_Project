@@ -1,0 +1,6 @@
+{
+  "if ($s == $t) pc += i << 2": "beq $s, $t, label",
+  "if ($s > 0 pc += i << 2": "bgtz $s, label",
+  "if ($s <= 0) pc += i << 2": "blez $s, label",
+  "if ($s != $t) pc += i << 2": "bne $s, $t, label"
+}

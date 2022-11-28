@@ -1,0 +1,6 @@
+{
+  "$d = hi": "mfhi $d",
+  "$d = lo": "mflo $d",
+  "hi = $s": "mthi $s",
+  "lo = $s": "mtlo $s"
+}
