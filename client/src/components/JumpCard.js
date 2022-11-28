@@ -16,7 +16,7 @@ function AlCard() {
   //TODO: resolve ERROR: endpoint expecting a map not a string. either change api or change input into a map
   const deleteMoneyPot = async () => {
     console.log(id);
-    const res = await Axios.get(`http://localhost:5009/al/${id}`);
+    const res = await Axios.get(`http://localhost:5009/jump/${id}`);
 
     console.log(res.data);
     setModalDescription(res.data);

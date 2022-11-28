@@ -1,3 +1,3 @@
 {
-  "HH($t) = i": ["lhi $t, i", "llo $t, i"]
+  "HH($t) = i": ["lhi $t, i", " OR llo $t, i"]
 }
