@@ -5,7 +5,7 @@ import logo from "./logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function NavBar() {
-  const myImageStyle = { width: "200px", height: "200px" };
+  const myImageStyle = { width: "150px", height: "150px" };
 
   return (
     <Navbar bg="light" expand="lg">
