@@ -5,21 +5,20 @@ import logo from "./logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function NavBar() {
-  const myImageStyle = { width: "50px", height: "50px" };
+  const myImageStyle = { width: "200px", height: "200px" };
 
   return (
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <img style={myImageStyle} src={logo} alt="Money Pot Logo" /> MIPS
-          Translator
+          <img style={myImageStyle} src={logo} alt="Money Pot Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="about">About</Nav.Link>
-            <Nav.Link href="directory">Directory</Nav.Link>
+            <Nav.Link href="/">HOME</Nav.Link>
+            <Nav.Link href="about">ABOUT</Nav.Link>
+            <Nav.Link href="directory">OPERATIONS</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
