@@ -15,7 +15,7 @@ function About() {
               The MIPS assembly language is a very useful language to learn because many <b>embedded systems</b> run on the MIPS processor. 
               Knowing how to code in this language brings a <b>deeper understanding</b> of how these systems operate on a <b>lower level</b>.
               <br /><br /><b>Developed by<br />Taylor Noh, Nicholas Caro, Rodolfo Hernandez</b><br /><br />
-              <img height="150" width="150" src="https://www.freecodecamp.org/news/content/images/2022/04/arm-1.png" />
+              <img height="175" width="175" src="https://www.freecodecamp.org/news/content/images/2022/04/arm-1.png" />
             </p>
             <br />
           </div>
