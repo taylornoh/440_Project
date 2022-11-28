@@ -28,7 +28,7 @@ function AlCard() {
       <div>
         <br />
         <br />
-        <h3>Arithmetic & Logic</h3>
+        <h5>Arithmetic & Logic</h5>
       </div>
       <div className="card-body card-shadow">
         <TextField
