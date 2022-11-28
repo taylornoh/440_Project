@@ -3,7 +3,6 @@ function About() {
     <div>
       <div>
         <br />
-        <h2>About Us</h2>
         <div className="about-body card-shadow">
           <div className="card-body">
             <br />
