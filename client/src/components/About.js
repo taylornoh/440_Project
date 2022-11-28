@@ -7,7 +7,7 @@ function About() {
           <div className="card-body">
             <br />
             <p> 
-              The <b>MIP Translator</b> website is a tool designed for students who are learning how to code in the <b>MIPS assembly language</b>. 
+              The <b>MIPS Translator</b> website is a tool designed for students who are learning how to code in the <b>MIPS assembly language</b>. 
               It is a quick way to understand how <b>MIPS operations</b> are translated into <b>program instructions</b>.
               MIPS assembly language simply refers to the assembly language of the <b>MIPS processor</b>. 
               The term MIPS is an acronym for <b>Microprocessor without Interlocked Pipeline Stages</b>. 
