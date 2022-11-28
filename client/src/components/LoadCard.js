@@ -43,12 +43,12 @@ function LoadCard() {
       <div>
         <br />
         <br />
-        <h3>Load</h3>
+        <h5>Load</h5>
       </div>
       <div className="card-body card-shadow">
         <TextField
           id="standard-basic"
-          label="operation"
+          label="Enter Operation"
           variant="standard"
           required
           size="small"

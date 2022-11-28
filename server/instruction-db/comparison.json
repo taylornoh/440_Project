@@ -1,0 +1,4 @@
+{
+  "$d = ($s < $t)": ["slt $d, $s, $t", " OR sltu $d, $s, $t"],
+  "t = ($s < SE(i)": ["slti $t, $s, i", " OR sltiu $t, $s, i"]
+}

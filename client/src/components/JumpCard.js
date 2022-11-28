@@ -1,12 +1,11 @@
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import { useState } from "react";
-import Modal from "@mui/material/Modal";
 import Axios from "axios";
+import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
-//AKA STORE
-function StoreCard() {
+function AlCard() {
   const [id, setId] = useState("");
   const [modalDescription, setModalDescription] = useState("");
   const [open, setOpen] = useState(false);
@@ -17,7 +16,7 @@ function StoreCard() {
   //TODO: resolve ERROR: endpoint expecting a map not a string. either change api or change input into a map
   const deleteMoneyPot = async () => {
     console.log(id);
-    const res = await Axios.get(`http://localhost:5009/store/${id}`);
+    const res = await Axios.get(`http://localhost:5009/jump/${id}`);
 
     console.log(res.data);
     setModalDescription(res.data);
@@ -29,7 +28,7 @@ function StoreCard() {
       <div>
         <br />
         <br />
-        <h5>Store</h5>
+        <h5>Jump</h5>
       </div>
       <div className="card-body card-shadow">
         <TextField
@@ -60,4 +59,4 @@ function StoreCard() {
   );
 }
 
-export default StoreCard;
+export default AlCard;
